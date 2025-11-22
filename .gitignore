@@ -1,0 +1,4 @@
+/.env
+/artifacts/
+/dist/
+/node_modules/
