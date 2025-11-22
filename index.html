@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="author" content="Bergbok (https://github.com/Bergbok)" />
+		<meta name="description" content="idk" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>bergbok@neocities</title>
+		<script>
+			const favicons = [
+				'blue',
+				'orange',
+				'pink',
+				'red',
+				'white',
+				'yellow'
+			];
+			const chosen =
+				favicons[Math.floor(Math.random() * favicons.length)];
+			const link = document.createElement('link');
+			link.rel = 'icon';
+			link.type = 'image/avif';
+			link.href = `/favicons/${chosen}.avif`;
+			document.head.appendChild(link);
+		</script>
+	</head>
+
+	<body>
+		<script type="module" src="/src/main.ts"></script>
+	</body>
+</html>
