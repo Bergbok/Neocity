@@ -5,6 +5,7 @@
     "": {
       "name": "neocity",
       "dependencies": {
+        "cursor-effects": "^1.0.17",
         "shaders": "^2.1.10",
         "vue": "^3.5.24",
         "vue-router": "^4.6.3",
@@ -221,6 +222,8 @@
     "cross-spawn": ["cross-spawn@7.0.6", "", { "dependencies": { "path-key": "^3.1.0", "shebang-command": "^2.0.0", "which": "^2.0.1" } }, "sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA=="],
 
     "csstype": ["csstype@3.2.3", "", {}, "sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ=="],
+
+    "cursor-effects": ["cursor-effects@1.0.17", "", {}, "sha512-IUMgMgc9Ii/BZnngHZmg/SpUvHaJAC+zqxmWIU4DnJY9RN5eb2xEGB9yL2jrdihMs+9xLgRuNNPYVaUrhASTNA=="],
 
     "delayed-stream": ["delayed-stream@1.0.0", "", {}, "sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ=="],
 

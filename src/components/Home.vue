@@ -14,7 +14,7 @@ import {
 	TiltShift
 } from 'shaders/vue';
 
-import '/src/assets/images/github.svg';
+import { characterCursor, ghostCursor } from 'cursor-effects';
 </script>
 
 <template>
@@ -139,6 +139,13 @@ import '/src/assets/images/github.svg';
 		/>
 	</a>
 </template>
+
+<script lang="ts">
+characterCursor({ characters: ['b', 'e', 'r', 'g', 'b', 'o', 'k'] });
+ghostCursor({
+	image: 'https://raw.githubusercontent.com/Bergbok/HypnOS-Linux-Cursor/refs/heads/main/src/assets/default.png'
+});
+</script>
 
 <style scoped>
 .centered-404 {
