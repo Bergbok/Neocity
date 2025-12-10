@@ -21,7 +21,7 @@
 		"preview": "vite preview"
 	},
 	"dependencies": {
-		"cursor-effects": "^1.0.17",
+		"cursor-effects": "^1.0.18",
 		"shaders": "^2.2.0",
 		"vue": "^3.5.25",
 		"vue-router": "^4.6.3"
