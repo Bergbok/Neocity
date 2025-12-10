@@ -5,7 +5,7 @@
     "": {
       "name": "neocity",
       "dependencies": {
-        "cursor-effects": "^1.0.17",
+        "cursor-effects": "^1.0.18",
         "shaders": "^2.2.0",
         "vue": "^3.5.25",
         "vue-router": "^4.6.3",
@@ -223,7 +223,7 @@
 
     "csstype": ["csstype@3.2.3", "", {}, "sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ=="],
 
-    "cursor-effects": ["cursor-effects@1.0.17", "", {}, "sha512-IUMgMgc9Ii/BZnngHZmg/SpUvHaJAC+zqxmWIU4DnJY9RN5eb2xEGB9yL2jrdihMs+9xLgRuNNPYVaUrhASTNA=="],
+    "cursor-effects": ["cursor-effects@1.0.18", "", {}, "sha512-GCmSfiuoBjcOq2e4IewxYvOTAjPVVy0MSxhiyQ1Rz+Obsy9mG5NAd4+utIPhu8RxvlrjjDD/d1XSFY0BL3fp7g=="],
 
     "delayed-stream": ["delayed-stream@1.0.0", "", {}, "sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ=="],
 
