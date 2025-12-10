@@ -22,7 +22,7 @@
 	},
 	"dependencies": {
 		"cursor-effects": "^1.0.17",
-		"shaders": "^2.1.14",
+		"shaders": "^2.2.0",
 		"vue": "^3.5.25",
 		"vue-router": "^4.6.3"
 	},
