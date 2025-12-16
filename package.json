@@ -9,7 +9,6 @@
 	"homepage": "https://bergbok.neocities.org",
 	"repository": "github.com:Bergbok/Neocity",
 	"bugs": "https://github.com/Bergbok/Neocity/issues",
-	"prettier": "@bergbok/prettier-config",
 	"simple-git-hooks": {
 		"pre-commit": "bunx pretty-quick --staged && bunx dotenvx ext precommit"
 	},
