@@ -14,6 +14,7 @@ import {
 	TiltShift
 } from 'shaders/vue';
 
+import { iggyCursor } from 'iggy-cursor';
 import { characterCursor, ghostCursor } from 'cursor-effects';
 </script>
 
@@ -142,6 +143,7 @@ import { characterCursor, ghostCursor } from 'cursor-effects';
 
 <script lang="ts">
 characterCursor({ characters: ['b', 'e', 'r', 'g', 'b', 'o', 'k'] });
+iggyCursor({ assetsBase: '/iggy/' });
 ghostCursor({
 	image: 'https://raw.githubusercontent.com/Bergbok/HypnOS-Linux-Cursor/refs/heads/main/src/assets/default.png'
 });
