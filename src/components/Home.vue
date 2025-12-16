@@ -16,7 +16,7 @@ import {
 
 import { useFps } from '@vueuse/core';
 import { iggyCursor } from 'iggy-cursor';
-import { characterCursor, ghostCursor } from 'cursor-effects';
+import { ghostCursor } from 'cursor-effects';
 
 const fps = useFps();
 </script>
@@ -131,7 +131,6 @@ const fps = useFps();
 </template>
 
 <script lang="ts">
-characterCursor({ characters: ['b', 'e', 'r', 'g', 'b', 'o', 'k'] });
 iggyCursor({ assetsBase: '/iggy/' });
 ghostCursor({
 	image: 'https://raw.githubusercontent.com/Bergbok/HypnOS-Linux-Cursor/refs/heads/main/src/assets/default.png'
