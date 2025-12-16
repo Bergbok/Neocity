@@ -14,20 +14,18 @@ import {
 	TiltShift
 } from 'shaders/vue';
 
+import { useFps } from '@vueuse/core';
 import { iggyCursor } from 'iggy-cursor';
 import { characterCursor, ghostCursor } from 'cursor-effects';
+
+const fps = useFps();
 </script>
 
 <template>
 	<Shader class="fullscreen-shader">
 		<SolidColor color="#17171a" mask-type="alpha" />
 		<Group>
-			<Checkerboard
-				:cells="8"
-				color-a="#cccccc"
-				color-b="#383e42"
-				mask-type="alpha"
-			/>
+			<Checkerboard :cells="8" color-a="#cccccc" color-b="#383e42" mask-type="alpha" />
 			<Ripples
 				:phase="0"
 				:speed="1.9"
@@ -85,13 +83,7 @@ import { characterCursor, ghostCursor } from 'cursor-effects';
 				mask-source="idmh47oyx205ue8s7u1"
 				right-color="#ededd5"
 			/>
-			<CursorTrail
-				color-a="#00aaff"
-				color-b="#ff00aa"
-				:length="0.5"
-				:radius="0.5"
-				:shrink="1"
-			/>
+			<CursorTrail color-a="#00aaff" color-b="#ff00aa" :length="0.5" :radius="0.5" :shrink="1" />
 			<Ascii
 				:spacing="1"
 				:cell-size="30"
@@ -127,17 +119,14 @@ import { characterCursor, ghostCursor } from 'cursor-effects';
 		/>
 	</Shader>
 	<img src="/src/assets/images/404.avif" alt="404" class="centered-404" />
+	<p class="fps">{{ fps }}</p>
 	<a
 		href="https://github.com/Bergbok/Neocity"
 		target="_blank"
 		rel="noopener noreferrer"
 		class="github-link"
 	>
-		<img
-			src="/src/assets/images/github.svg"
-			alt="GitHub"
-			class="github-svg"
-		/>
+		<img src="/src/assets/images/github.svg" alt="GitHub" class="github-svg" />
 	</a>
 </template>
 
@@ -170,10 +159,26 @@ ghostCursor({
 	z-index: -1;
 }
 
+@font-face {
+	font-family: 'fraps';
+	src: url('./../assets/fonts/fraps.woff2') format('woff2');
+	font-style: normal;
+}
+
+.fps {
+	position: absolute;
+	top: -7rem;
+	right: 1rem;
+	color: yellow;
+	font-family: 'fraps', monospace;
+	font-size: 3rem;
+	-webkit-text-stroke: 0.1rem black;
+}
+
 .github-link {
 	position: absolute;
 	top: 2rem;
-	right: 2rem;
+	left: 2rem;
 }
 
 .github-svg {
