@@ -1,9 +1,9 @@
 import vue from '@vitejs/plugin-vue';
 import { defineConfig } from 'vite';
 
-// https://vite.dev/config/
+// https://vite.dev/config
 export default defineConfig({
-	appType: 'spa',
+	appType: 'mpa',
 	build: {
 		chunkSizeWarningLimit: 4200
 	},
