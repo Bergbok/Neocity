@@ -20,7 +20,7 @@
 		"preview": "vite preview"
 	},
 	"dependencies": {
-		"@vueuse/core": "^14.1.0",
+		"@vueuse/core": "^14.2.0",
 		"color": "^5.0.3",
 		"cursor-effects": "^1.0.18",
 		"iggy-cursor": "^1.0.0",
