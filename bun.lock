@@ -9,7 +9,7 @@
         "color": "^5.0.3",
         "cursor-effects": "^1.0.18",
         "iggy-cursor": "^1.0.0",
-        "shaders": "^2.2.48",
+        "shaders": "^2.3.63",
         "vue": "^3.5.28",
         "vue-router": "^5.0.2",
       },
@@ -418,7 +418,7 @@
 
     "scule": ["scule@1.3.0", "", {}, "sha512-6FtHJEvt+pVMIB9IBY+IcCJ6Z5f1iQnytgyfKMhDKgmzYG+TeH/wx1y3l27rshSbLiSanrR9ffZDrEsmjlQF2g=="],
 
-    "shaders": ["shaders@2.2.48", "", { "dependencies": { "three": "^0.181.0" } }, "sha512-n/o6DM/7Ey4v/fqnR5QHxg2RVqAi/qZwfZdhWlpgArQFzQR49V02fK37eBsz8/1hQ+aKYHXX9KyXh+qET5HDPA=="],
+    "shaders": ["shaders@2.3.63", "", { "dependencies": { "three": "^0.182.0" } }, "sha512-QfKQYG+6MF+9DuLrDwPOd4n4sufO+JheKb3260ccpB11LVqELGUlE/uJ1w8l/9zvDW5G0lJuws8vIdgaQx/MXw=="],
 
     "shebang-command": ["shebang-command@2.0.0", "", { "dependencies": { "shebang-regex": "^3.0.0" } }, "sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA=="],
 
@@ -438,7 +438,7 @@
 
     "superjson": ["superjson@2.2.6", "", { "dependencies": { "copy-anything": "^4" } }, "sha512-H+ue8Zo4vJmV2nRjpx86P35lzwDT3nItnIsocgumgr0hHMQ+ZGq5vrERg9kJBo5AWGmxZDhzDo+WVIJqkB0cGA=="],
 
-    "three": ["three@0.181.2", "", {}, "sha512-k/CjiZ80bYss6Qs7/ex1TBlPD11whT9oKfT8oTGiHa34W4JRd1NiH/Tr1DbHWQ2/vMUypxksLnF2CfmlmM5XFQ=="],
+    "three": ["three@0.182.0", "", {}, "sha512-GbHabT+Irv+ihI1/f5kIIsZ+Ef9Sl5A1Y7imvS5RQjWgtTPfPnZ43JmlYI7NtCRDK9zir20lQpfg8/9Yd02OvQ=="],
 
     "tinyexec": ["tinyexec@0.3.2", "", {}, "sha512-KQQR9yN7R5+OSwaK0XQoj22pwHoTlgYqmUscPYoknOoWCWfj/5/ABTMRi69FrKU5ffPVh5QcFikpWJI/P1ocHA=="],
 
