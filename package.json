@@ -25,7 +25,7 @@
 		"cursor-effects": "^1.0.18",
 		"iggy-cursor": "^1.0.0",
 		"shaders": "^2.3.75",
-		"vue": "^3.5.29",
+		"vue": "^3.5.30",
 		"vue-router": "^5.0.3"
 	},
 	"devDependencies": {
