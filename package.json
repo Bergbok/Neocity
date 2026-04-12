@@ -24,7 +24,7 @@
 		"color": "^5.0.3",
 		"cursor-effects": "^1.0.18",
 		"iggy-cursor": "^1.0.0",
-		"shaders": "^2.5.86",
+		"shaders": "^2.5.93",
 		"vue": "^3.5.32",
 		"vue-router": "^5.0.4"
 	},
