@@ -8,7 +8,7 @@
         "@vueuse/core": "^14.2.1",
         "color": "^5.0.3",
         "cursor-effects": "^1.0.18",
-        "iggy-cursor": "^1.0.0",
+        "iggy-cursor": "^1.1.0",
         "shaders": "^2.5.93",
         "vue": "^3.5.32",
         "vue-router": "^5.0.4",
@@ -274,7 +274,7 @@
 
     "human-signals": ["human-signals@2.1.0", "", {}, "sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw=="],
 
-    "iggy-cursor": ["iggy-cursor@1.0.0", "", { "dependencies": { "gsap": "^3.13.0" } }, "sha512-mQrCwKoqqiOOEi+dqV8t1p3+ghoY5oTUBdXLc55xM9Is12ICcFHxWEE5c2Tf6geThdPyZWIic1uEv+qtNlBz2Q=="],
+    "iggy-cursor": ["iggy-cursor@1.1.0", "", { "dependencies": { "gsap": "^3.13.0" } }, "sha512-zext9i2NpnES4xvhTD1lta+KF375vk+LrZvkLYzCatlCIeKa30y1zQmri9UBVKYpgluoMIfJ7jpWit6ZZ0v70Q=="],
 
     "ignore": ["ignore@5.3.2", "", {}, "sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g=="],
 
