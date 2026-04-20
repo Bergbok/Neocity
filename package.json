@@ -30,7 +30,7 @@
 	},
 	"devDependencies": {
 		"@bergbok/prettier-config": "^1.1.0",
-		"@dotenvx/dotenvx": "^1.61.0",
+		"@dotenvx/dotenvx": "^1.61.1",
 		"@types/bun": "latest",
 		"@vitejs/plugin-vue": "^6.0.6",
 		"@vue/tsconfig": "^0.9.1",
